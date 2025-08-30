@@ -5,7 +5,7 @@ const user=require("./model/UserSchema")
 const bcrypt=require('bcryptjs')
 const app=express()
 
-mongoose.connect("mongodb+srv://abhaykriz2002:abhay123@cluster0.xpvokm3.mongodb.net/db?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
+mongoose.connect("mongodb+srv://abhayks0007:Abhayks%4013@cluster0.dg59tsu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
     console.log("MongoDb is connected");
     
 })
