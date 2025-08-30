@@ -2,7 +2,7 @@ const express=require('express');
 const mongoose=require("mongoose")
 const cors=require("cors")
 const user=require("./model/UserSchema")
-const bcrypt=require('bcrypt')
+const bcrypt=require('bcryptjs')
 const app=express()
 
 mongoose.connect("mongodb+srv://abhaykriz2002:abhay123@cluster0.xpvokm3.mongodb.net/db?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
